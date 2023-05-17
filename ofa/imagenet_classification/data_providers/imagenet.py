@@ -17,7 +17,7 @@ __all__ = ["ImagenetDataProvider"]
 
 
 class ImagenetDataProvider(DataProvider):
-    DEFAULT_PATH = "/home/zhenyulin/Training_data/imagenet-train"
+    DEFAULT_PATH = "."
 
     def __init__(
         self,
